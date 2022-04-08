@@ -59,6 +59,7 @@ java WhereAmI
  We can see the output of its current location.
 
  ## 5. Setting SSH keys
+
  ![Image](week1/week1-5.png)
 
  <br/><br/><br/><br/>
@@ -112,6 +113,7 @@ ssh-add ~\.ssh\"Name of your public key"
 Then, you should have access to the server without password.
 
 ## 6. Optimize remote running
+
 ![Image](week1/week1-6.png)
 <br/><br/><br/><br/>
 With SSH keys, we can use one single line of code to ask server to run certain command.
