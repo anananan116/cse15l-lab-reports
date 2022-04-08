@@ -8,7 +8,7 @@ Go to [VS code](https://code.visualstudio.com/) website t download the latest ve
 <br/>
 
 ## 2. Remotely Connecting
-![Image](https://github.com/anananan116/cse15l-lab-reports/blob/8f3f17ae147968c29f6d19321c4255d4aaa28d36/week1/week1-2.png)<br /><br/><br/><br/>
+![Image](week1/week1-2.png)<br /><br/><br/><br/>
 First, istall [Open SSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) on their website. Then, you need to look up the course-specific account and password for the lab on [here](https://sdacs.ucsd.edu/~icc/index.php)
 <br/>
 <br/>
@@ -21,7 +21,7 @@ Then the passoword. Then you should see the welcome message.
 
 ## 3. Try Some Command
 
-![Image](https://github.com/anananan116/cse15l-lab-reports/blob/60dd5bed336b028955b889ebfd4033c855f0b0c6/week1/2.png)
+![Image](week1/2.png)
 <br/><br/><br/><br/>
 I tried some basic commands here. The intresting one is:
 
@@ -38,7 +38,7 @@ it means:
 
 <br/>
 
-![Image](https://github.com/anananan116/cse15l-lab-reports/blob/885600bc7078bc008c127a31cf1a7ff5418fc3ae/week1/week1-4.png)
+![Image](week1/week1-4.png)
 <br/><br/><br/><br/>
 
 Here, I moved the java file WhereAmI.java to the remote server using the scp command:
@@ -59,7 +59,7 @@ java WhereAmI
  We can see the output of its current location.
 
  ## 5. Setting SSH keys
- ![Image](https://github.com/anananan116/cse15l-lab-reports/blob/885600bc7078bc008c127a31cf1a7ff5418fc3ae/week1/week1-5.PNG)
+ ![Image](week1/week1-5.png)
 
  <br/><br/><br/><br/>
 
@@ -112,7 +112,7 @@ ssh-add ~\.ssh\"Name of your public key"
 Then, you should have access to the server without password.
 
 ## 6. Optimize remote running
-![Image](https://github.com/anananan116/cse15l-lab-reports/blob/885600bc7078bc008c127a31cf1a7ff5418fc3ae/week1/week1-6.PNG)
+![Image](week1/week1-6.png)
 <br/><br/><br/><br/>
 With SSH keys, we can use one single line of code to ask server to run certain command.
 Just like what I did in the picture. Try:
