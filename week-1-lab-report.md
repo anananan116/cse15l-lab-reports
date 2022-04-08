@@ -2,7 +2,7 @@
 <br />
 
 ## 1. Install VS code
-![Image](https://github.com/anananan116/cse15l-lab-reports/blob/8052737657b5615c3e9d11dcb484b1778e24ff9d/week1/week1-1.png)<br /><br/><br/><br/>
+![Image](week1/week1-1.png)<br /><br/><br/><br/>
 Go to [VS code](https://code.visualstudio.com/) website t download the latest version of vs code and then install it.<br />
 <br/>
 <br/>
