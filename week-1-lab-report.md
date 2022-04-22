@@ -131,6 +131,6 @@ This one line of code tell the server to compile and run this java program.
 The End:
 ---
 
-**Thank you for reading this tutorial.** <br/>
+**Thank you for reading this lab report.** <br/>
 **See next lab report here:**
-[here](https://github.com/anananan116) (haven't been published, look at my github page.)
+[here](https://anananan116.github.io/cse15l-lab-reports/week-2-lab-report.md)
