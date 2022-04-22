@@ -71,7 +71,8 @@ symptom before fix this bug:
 
 This bug appears when there's a image embeded in md file. Image in md file share a similar format as link: `[]()`. So, the original program will also find all the link for images. After I made the change, the if statement will check if the bracket before the link has the format of `[Image]`. If so, it will not record this link for image.
 
-
+<br />
+<br />
 
 ## Third Code change
 <br />
