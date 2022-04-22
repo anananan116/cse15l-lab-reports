@@ -112,6 +112,8 @@ symptom before fix this bug:
 
 This bug will appear if there's no any image or link in the md file. If there are no anything in the format of `[]()`, openBracket and closeBracket will both have a value of -1. So, the if statement will become:`if (!markdown.substring(0, -1).equals("Image"))`, which is clearly out of boundary for any String because of the index -1. The solution here is to put the break statement before this if statement, so that if there're no links in this md file, then it will stop the loop to prevent next lines of code to run.
 
+<br />
+<br />
 
 The End:
 ---
