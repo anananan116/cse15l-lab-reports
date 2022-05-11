@@ -119,6 +119,45 @@ git remote set-url origin (SSH url for this repo)
 
 You can check this [link](https://github.com/anananan116/cse15l-lab-reports/commit/5912344cc3e8f6237bcc304f26289f45ae85de06) to see the commit I push.
 
+<br /><br />
+
+
+# Copy whole directories with scp -r
+
+We can use scp-r command to copy the whole directory to the remote server. See picture:
+
+<br />
+
+![Image](week3/8.png)
+
+Using the command 
+
+```
+scp -r .\markdown-parser-main\ ieng6:~\markdown-parser
+```
+We copied the whole markdown-parser-main to server.
+
+<br />
+
+After that, we can try runing the tests in remote server:
+
+<br />
+
+![Image](week3/9.png)
+
+<br />
+
+Better than that, we can use one line of code to first copy the directory and then run the test on remote server. See picture:
+
+<br />
+
+![Image](week3/10.png)
+
+```
+scp -r .\markdown-parser-main\ ieng6:~\all_in_one; ssh ieng6 "cd all_in_one; javac -cp .:lib/junit-4.12.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.12.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"
+```
+
+It actually is two command connected with ;. The second ssh command also use ; to connect all the command inside "".
 
 <br /><br /><br /><br />
 
