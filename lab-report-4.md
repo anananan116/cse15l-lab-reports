@@ -104,7 +104,9 @@ while(nextOpenBracket - 1>=0 && (!markdown.charAt(nextOpenBracket-1).equals("\")
 }
 ```
 
-We can do something like this to the close bracket
+We can do something similar to the close bracket
+
+<br /><br />
 
 Snippet 3:
 
